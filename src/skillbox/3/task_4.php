@@ -1,9 +1,9 @@
 <?php
 
-$a = rand(0,1);
+$a = rand(0, 1);
 echo $a;
 
-$b = $a == 0 ? null : rand(1,3);
+$b = $a === 0 ? null : rand(1, 3);
 echo $b;
 
 switch ($b) {
@@ -21,5 +21,5 @@ switch ($b) {
 
 var_dump(isset($b));
 
-$c = $b ??  rand(20,30);
-echo ($c);
+$c = $b ?? rand(20, 30);
+echo($c);

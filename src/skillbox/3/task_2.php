@@ -1,7 +1,7 @@
 <?php
 
-$a = rand(1,9);
-$b = rand(1,3) * 10;
+$a = rand(1, 9);
+$b = rand(1, 3) * 10;
 
 $c = $a * $b;
 
@@ -17,5 +17,4 @@ switch (true) {
     case ($c >= 200 && $c < 300):
         echo "3";
         break;
-    }
-
+}

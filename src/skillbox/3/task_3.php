@@ -1,10 +1,11 @@
-<?php 
+<?php
 
-$a = rand(1,9);
-$b = rand(1,3) * 10;
+
+$a = rand(1, 9);
+$b = rand(1, 3) * 10;
 
 $c = $a * $b;
-$c += rand(0,100);
+$c += rand(0, 100);
 
 switch (true) {
     case ($c >= 0 && $c < 100):
@@ -19,8 +20,7 @@ switch (true) {
         echo "3";
         break;
 
-    default: 
+    default:
         echo "Значение не попадает в заданные диапазоны.";
         break;
 }
-
